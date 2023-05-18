@@ -10,5 +10,5 @@ export async function GET(request: NextRequest) {
   })
 
   const { token } = registerResponse.data
-  console.log(token)
+  console.log(token) // não funciona essa desgraça
 }
